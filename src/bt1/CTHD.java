@@ -25,6 +25,12 @@ public class CTHD {
         this.chietKhau = chietKhau;
     }
 
+    @Override
+    public String toString() {
+        return "Sản phẩm: " + this.sanPham + "\nSố lượng: " + this.soLuong +
+                "\nĐơn giá " + this.donGia + "\nChiết khấu: " + this.chietKhau;
+    }
+    
     public String getSanPham() {
         return sanPham;
     }

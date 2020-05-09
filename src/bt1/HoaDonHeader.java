@@ -24,6 +24,13 @@ public class HoaDonHeader {
         this.ngayBan = ngayBan;
     }
 
+    @Override
+    public String toString() {
+        return "Mã hóa đơn: " + this.maHoaDon +
+                "\nTên khách hàng: " + this.tenKhachHang +
+                "\nNgày bán: " + this.ngayBan;//To change body of generated methods, choose Tools | Templates.
+    }
+    
     public String getMaHoaDon() {
         return maHoaDon;
     }
